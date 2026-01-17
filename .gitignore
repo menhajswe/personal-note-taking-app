@@ -5,6 +5,12 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+### temp db ###
+*.db
+data/myapp-db.mv.db
+data/myapp-db.trace.db
+
+
 ### STS ###
 .apt_generated
 .classpath
