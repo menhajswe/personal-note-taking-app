@@ -1,0 +1,6 @@
+2026-01-16 18:03:47.967766-05:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT *\000d\000aFROM note n\000d\000aJOIN [*]user u\000d\000a  ON n.user_id = u.id"; expected "identifier"; SQL statement:
+SELECT *
+FROM note n
+JOIN user u
+  ON n.user_id = u.id [42001-240]
